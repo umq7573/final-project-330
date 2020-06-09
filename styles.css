@@ -1,0 +1,55 @@
+
+body{
+    font-family:sans-serif;
+}
+.navitem {
+  background-color: grey; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-left: 0px;  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+}
+.navitem:hover {
+  background-color: lightblue;
+  
+}
+
+#nav {
+    font-size: 0;
+    text-align: left;
+}
+
+#name {
+  color: grey;
+  font-size: 32px;
+  margin-left: 2px;
+  margin-bottom: 5px;
+  }
+#resume{
+    padding-top: 15px;
+
+}
+
+#current {
+    background-color: lightblue;
+}
+
+#content {
+    margin-top: 20px;
+    max-width: 780px;
+}
+img{
+    height: 200px;
+    transition: height .3s;
+}
+img:hover{
+    height: 300px;
+}
+#imglinks {
+    padding-top: 20px;
+}

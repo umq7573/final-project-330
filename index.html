@@ -1,0 +1,26 @@
+<html>
+<head>
+    <link rel="stylesheet" href = "styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+    <div id="bar">
+        <div id="name">Uzair Qadir | Researcher, Writer, Software Enthusiast</div>
+        <div id="nav">
+                <button class="navitem bio" onclick="goTo('bio')">Bio and Contact Info</button>
+                <button class="navitem resume"  onclick="goTo('resume')">Resume</button>
+                <button class="navitem projects" id="current" onclick="goTo('projects')">Project Showcase</button>
+        
+        </div>
+    </div>
+   <div id="content">
+       Check out my writing!
+       <div id="imglinks">
+           <img onclick="goTo('p1')" src="sherlock.jpg" />
+           <img onclick="goTo('p2')" src="kritik.jpg" />
+       </div>
+   </div>
+    </main>
+</body>
+</html>
